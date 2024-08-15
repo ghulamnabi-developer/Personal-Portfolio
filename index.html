@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <nav class="container">
+        <img class="logo" src="img/logo.png" alt="">
+        <i id="btn-menu" class="fa-solid fa-bars"></i>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+   </header>
+   <div class="hero" id="home">
+    <div class="container">
+        
+        <div class="content">
+            <h4>Hello I'm</h4>
+            <h1>Ghulam Nabi</h1>
+            <p>Front-End Developer</p>
+            <a href="img/cv.pdf" target="_blank" class="btn" type="submit" value="submit">Download CV</a>
+        </div>
+        <div class="hero-img">
+            <img src="img/aboutimghero.png" alt="">
+        </div>
+        
+    </div>
+    
+   </div>
+<!--start about sec-->
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-img">
+            <img src="img/aboutus.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1>About <span>Me</span></h1>
+            <h3>Front-End Developer</h3>
+            <p>LWeb Developer specializing in front end development and
+                wordPress development. Experienced with all stages of
+                the development cycle for dynamic web projects. Wellversed in numerous programming languages including
+                HTML5,CSS, JavaScript, OOP,C++,and MySQL
+                database.</p>
+                <div class="btns">
+                    <a href="#" class="btn">Download</a>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+        </div>
+    </div>
+</section>
+<!-- strt services -->
+<section class="services" id="service">
+    <div class="container">
+        <div class="sec-top">
+            <h1>Our <span>Services</span></h1>
+        </div>
+        <div class="boxs">
+            <div class="box">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi ab similique dicta ipsa ad debitis dolorum!</p>
+
+                    <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-rocket"></i>
+                <h3>Fast Performance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi ab similique dicta ipsa ad debitis dolorum!</p>
+
+                    <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi ab similique dicta ipsa ad debitis dolorum!</p>
+
+                    <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="sec-top">
+            <h1>Latest <span>Projects</span></h1>
+        </div>
+        <div class="boxs">
+            <div class="box">
+                <div class="box-hover">
+                    <span>Landing Page</span>
+                </div>
+                <img src="img/project1.png" alt="">
+            </div>
+            <div class="box">
+                <div class="box-hover">
+                    <span>Landing Page</span>
+                </div>
+                <img src="img/project2.png" alt="">
+            </div>
+            <div class="box">
+                <div class="box-hover">
+                    <span>Landing Page</span>
+                </div>
+                <img src="img/project3.png" alt="">
+            </div>
+            <div class="box">
+                <div class="box-hover">
+                    <span>Landing Page</span>
+                </div>
+                <img src="img/project4.png" alt="">
+            </div>
+            <div class="box">
+                <div class="box-hover">
+                    <span>Landing Page</span>
+                </div>
+                <img src="img/project5.png" alt="">
+            </div>
+            <div class="box">
+                <div class="box-hover">
+                    <span>Landing Page</span>
+                </div>
+                <img src="img/project6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="sec-top">
+            <h1>Contac <span>Me</span></h1>
+        </div>
+
+        <form action="mailto:ghulamnabimughal24@gmail.com" method="post" enctype="text/plain">
+            <input type="text" placeholder="First Name" id="fname" name="fname">
+          <input type="text" placeholder="Last Name" id="lname" name="lname">
+           <input type="number" placeholder="Phone Number" id="phone" name="phone">
+            <input type="email" placeholder="Email Address" id="email" name="email">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" name="message"></textarea>
+            <button class="btn" id="btn" class="submit" value="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-about">
+            <h3>About Me</h3>
+            <p>Web Developer specializing in front end development and wordPress development. Experienced with all stages of the development cycle for dynamic web projects. Wellversed in numerous programming languages including HTML5,CSS, JavaScript, OOP,C++,and MySQL database</p>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Me</h3>
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="https://www.linkedin.com/in/ghulam-nabi-1aba9a295?" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/ghulamnabi-developer" target="_blank">GitHub</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+</html>
